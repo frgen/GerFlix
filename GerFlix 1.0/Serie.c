@@ -11,6 +11,20 @@
 
 */
 
+void mostrarListaSeries(eSerie series[], int tam)
+{
+    int i;
+    for(i=0; i<tam; i++)
+    {
+        if(series[i].estado==1)
+        {
+            printf("%d---%s---%s---%d---%d\n", series[i].idSerie, series[i].nombre, series[i].genero,
+                   series[i].cantidadTemporadas, series[i].estado);
+        }
+    }
+    printf("\n");
+}
+
 void inicializarSeriesEstado(eSerie series[], int cant)
 {
     int i;
@@ -25,8 +39,8 @@ void inicializarSeriesEstado(eSerie series[], int cant)
 void inicializarSeriesHardCode(eSerie series[])
 {
     int id[5] = {100,101,102,103,104};
-    char nombre[][50]={"TBBT","TWD","GOT","BB","LCDP"};
-    char genero[][50]={"Comedia","Terror","Suspenso","Policial","Policial"};
+    char nombre[][50]= {"TBBT","TWD","GOT","BB","LCDP"};
+    char genero[][50]= {"Comedia","Terror","Suspenso","Policial","Policial"};
     int cantidad[5] = {10,9,7,5,2};
 
     int i;

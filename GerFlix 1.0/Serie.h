@@ -1,3 +1,5 @@
+#include <stdio.h>
+#include <stdlib.h>
 
 typedef struct
 {
@@ -6,7 +8,7 @@ typedef struct
     char genero[20];
     int cantidadTemporadas;
     int estado;
-}eSerie;
+} eSerie;
 
 void inicializarSeriesEstado(eSerie[], int);
 void inicializarSeriesHardCode(eSerie[]);

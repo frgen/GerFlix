@@ -1,5 +1,5 @@
-
-#include "Serie.h"
+#include <stdio.h>
+#include <stdlib.h>
 
 typedef struct
 {
@@ -7,9 +7,9 @@ typedef struct
     char nombre[50];
     int idSerie;
     int estado;
-}eUsuario;
+} eUsuario;
 
 void inicializarUsuariosEstado(eUsuario[], int);
 void inicializarUsuariosHardCode(eUsuario[]);
 void mostrarListaUsuarios(eUsuario[], int);
-void mostrarUsuarioConSuSerie(eUsuario[], int, eSerie[], int);
+
