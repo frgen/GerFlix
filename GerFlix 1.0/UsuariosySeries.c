@@ -2,14 +2,14 @@
 
 void mostrarUsuarioConSuSerie(eUsuario usuarios[], int tamU, eSerie series[], int tamS)
 {
-    int i;
+    int i, j;
 
     for(i=0; i<tamU; i++)
     {
         if(usuarios[i].estado==1)
         {
-            printf("UYS %d---%s---%d---%s\n", usuarios[i].idUsuario, usuarios[i].nombre, usuarios[i].estado,
-               series[i].nombre);
+            j=usuarios[i].idSerie-100;
+            printf("UYS %d---%s---%s\n", usuarios[i].idUsuario, usuarios[i].nombre, series[j].nombre);
         }
     }
 }

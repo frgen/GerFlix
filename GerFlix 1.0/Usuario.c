@@ -41,8 +41,7 @@ void mostrarListaUsuarios(eUsuario usuarios[], int tam)
     {
         if(usuarios[i].estado==1)
         {
-            printf("%d---%s---%d---%d\n", usuarios[i].idUsuario, usuarios[i].nombre, usuarios[i].idSerie,
-                   usuarios[i].estado);
+            printf("%d---%s---%d\n", usuarios[i].idUsuario, usuarios[i].nombre, usuarios[i].idSerie);
         }
 
     }

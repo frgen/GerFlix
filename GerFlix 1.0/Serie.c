@@ -18,8 +18,8 @@ void mostrarListaSeries(eSerie series[], int tam)
     {
         if(series[i].estado==1)
         {
-            printf("%d---%s---%s---%d---%d\n", series[i].idSerie, series[i].nombre, series[i].genero,
-                   series[i].cantidadTemporadas, series[i].estado);
+            printf("%d---%s---%s---%d\n", series[i].idSerie, series[i].nombre, series[i].genero,
+                   series[i].cantidadTemporadas);
         }
     }
     printf("\n");
