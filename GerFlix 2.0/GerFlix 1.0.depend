@@ -1,0 +1,94 @@
+# depslib dependency file v1.0
+1538145183 source:c:\users\alumno\desktop\gerflix1\gerflix 1.0\main.c
+	<stdio.h>
+	<stdlib.h>
+	"UsuariosySeries.h"
+
+1538141320 c:\users\alumno\desktop\gerflix1\gerflix 1.0\usuario.h
+	<stdio.h>
+	<stdlib.h>
+
+1538141320 c:\users\alumno\desktop\gerflix1\gerflix 1.0\serie.h
+	<stdio.h>
+	<stdlib.h>
+
+1538146464 source:c:\users\alumno\desktop\gerflix1\gerflix 1.0\serie.c
+	"Serie.h"
+	<string.h>
+
+1538146464 source:c:\users\alumno\desktop\gerflix1\gerflix 1.0\usuario.c
+	<string.h>
+	"Usuario.h"
+
+1538146365 source:c:\users\alumno\desktop\gerflix1\gerflix 1.0\usuariosyseries.c
+	"UsuariosySeries.h"
+
+1538140479 c:\users\alumno\desktop\gerflix1\gerflix 1.0\usuariosyseries.h
+	"Serie.h"
+	"Usuario.h"
+
+1538166353 source:e:\gerflix\gerflix 1.0\main.c
+	<stdio.h>
+	<stdlib.h>
+	"UsuariosySeries.h"
+
+1538166353 e:\gerflix\gerflix 1.0\usuariosyseries.h
+	"Serie.h"
+	"Usuario.h"
+
+1538164347 e:\gerflix\gerflix 1.0\serie.h
+	<stdio.h>
+	<stdlib.h>
+
+1538164347 e:\gerflix\gerflix 1.0\usuario.h
+	<stdio.h>
+	<stdlib.h>
+
+1538164347 source:e:\gerflix\gerflix 1.0\serie.c
+	"Serie.h"
+	<string.h>
+
+1538164347 source:e:\gerflix\gerflix 1.0\usuario.c
+	<string.h>
+	"Usuario.h"
+
+1538165896 source:e:\gerflix\gerflix 1.0\usuariosyseries.c
+	"UsuariosySeries.h"
+
+1538665462 source:c:\users\alumno\desktop\gerflix-master\gerflix 2.0\main.c
+	<stdio.h>
+	<stdlib.h>
+	"UsuariosySeries.h"
+	"menu.h"
+
+1538661857 c:\users\alumno\desktop\gerflix-master\gerflix 2.0\usuariosyseries.h
+	"Serie.h"
+	"Usuario.h"
+
+1538166561 c:\users\alumno\desktop\gerflix-master\gerflix 2.0\serie.h
+	<stdio.h>
+	<stdlib.h>
+
+1538166561 c:\users\alumno\desktop\gerflix-master\gerflix 2.0\usuario.h
+	<stdio.h>
+	<stdlib.h>
+
+1538665415 source:c:\users\alumno\desktop\gerflix-master\gerflix 2.0\usuariosyseries.c
+	"UsuariosySeries.h"
+
+1538657844 source:c:\users\alumno\desktop\gerflix-master\gerflix 2.0\serie.c
+	"Serie.h"
+	<string.h>
+
+1538665589 source:c:\users\alumno\desktop\gerflix-master\gerflix 2.0\usuario.c
+	<string.h>
+	"Usuario.h"
+
+1538666010 c:\users\alumno\desktop\gerflix-master\gerflix 2.0\menu.h
+
+1538665885 source:c:\users\alumno\desktop\gerflix-master\gerflix 2.0\menu.c
+	<stdio.h>
+	<stdlib.h>
+	<string.h>
+	"menu.h"
+
